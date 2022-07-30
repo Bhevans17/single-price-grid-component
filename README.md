@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://single-price-grid-demo-app.netlify.app/)
+- Solution URL: (https://single-price-grid-component-demo.netlify.app/)
 
 ## My process
 
