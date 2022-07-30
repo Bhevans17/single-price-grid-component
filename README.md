@@ -43,9 +43,10 @@ Users should be able to:
 - Bootstrap 5
 - Flexbox
 - Mobile-first workflow
+- Vite
 
 ## Author
 
 - Portfolio - [Brenden Henry Evans](https://brendenevans.com)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/09c59650-50f4-4cbf-829e-80c59bcf0da6/deploy-status)](https://app.netlify.com/sites/single-price-grid-demo-app/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6bfec89b-88e5-40e5-81c2-51c8d4f2a8d0/deploy-status)](https://app.netlify.com/sites/single-price-grid-component-demo/deploys)
