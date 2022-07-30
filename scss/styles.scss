@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&display=swap');
+
+$theme-colors: (
+    "cyan": hsl(179, 62%, 43%),
+    "bright-yellow": hsl(71, 73%, 54%),
+    "light-gray": hsl(204, 43%, 93%),
+    "gray-blue": hsl(218, 22%, 67%)
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #E6EFF6;
+}
+
+#price_grid {
+    @media only screen and (min-width: 1200px) {
+        max-width: 35%;
+    }
+}
