@@ -1,21 +1,50 @@
+// Google fonts: "Karla"
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&display=swap');
 
+// Theme colors
 $theme-colors: (
-    "cyan": hsl(179, 62%, 43%),
-    "bright-yellow": hsl(71, 73%, 54%),
-    "light-gray": hsl(204, 43%, 93%),
-    "gray-blue": hsl(218, 22%, 67%)
+  'baby-blue': #e6eff6,
+  'purple': hsl(228, 45%, 44%),
+  'cyan': hsl(179, 62%, 43%),
+  'cyan-2': #67d8d6,
+  'cyan-3': #4db8b6,
+  'yellow': hsl(71, 73%, 54%),
+  'yellow-2': #d2e66d,
+  'light-gray': hsl(204, 43%, 93%),
+  'gray-blue': hsl(218, 22%, 67%),
 );
 
-@import "node_modules/bootstrap/scss/bootstrap";
+// Bootstrap SCSS
+@import 'node_modules/bootstrap/scss/bootstrap';
 
+// General styles
 body {
-    font-family: 'Karla', sans-serif;
-    background-color: #E6EFF6;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
 }
 
-#price_grid {
-    @media only screen and (min-width: 1200px) {
-        max-width: 35%;
-    }
+// Single price grid
+#single_price_grid {
+  max-width: 350px;
+
+  @media only screen and (min-width: 1024px) {
+    max-width: 1000px;
+  }
+}
+
+// Card 2
+#card_2 {
+  #card_2_price {
+    font-size: 1.7em;
+  }
+
+  .btn:hover {
+    background-color: #67d8d6;
+  }
+}
+
+// Attribution
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
