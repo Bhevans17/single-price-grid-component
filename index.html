@@ -2,41 +2,95 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="scss/styles.scss">
-
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/images/favicon-32x32.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
-    <body class="d-flex align-items-center justify-content-center vh-100 p-3">
-      <div id="price_grid" class="container-fluid mx-auto shadow-lg border">
-        <div class="row">
-          <div class="col-12 py-4 px-5 bg-white">
-            <h1 class="text-cyan">Join our community</h1>
-            <h2 class="text-bright-yellow">30-day, hassle-free money back guarantee</h2>
-            <p class="text-gray-blue">Gain access to our full library of tutorials along with expert code reviews. 
-              Perfect for any developers who are serious about honing their skills.</p>
-          </div>
-          <div class="col-12 col-xxl-6 bg-cyan text-white py-4 px-5">
-            <h3>Monthly Subscription</h3>
-            <h4 class="fw-light text-light-gray"><span class='fw-bold me-2 text-white'>&dollar;29</span>per month</h4>
-            <p>Full access for less than &dollar;1 a day</p>
-            <a href="#" class="btn btn-bright-yellow text-white w-100 shadow-lg">Sign Up</a>
-          </div>
-          <div class="col-12 col-xxl-6 py-4 px-5 text-white" style="background-color: #4DB8B6;">
-            <h3 class="my-3">Why Us</h3>
-            <ul class="list-unstyled text-light-gray">
-              <li>Tutorials by industry experts</li>
-              <li>Peer &amp; expert code review</li>
-              <li>Coding exercises</li>
-              <li>Access to our GitHub repos</li>
-              <li>Community forum</li>
-              <li>Flashcard decks</li>
-              <li>New videos every week</li>
-            </ul>
-          </div>
+  <body class="bg-baby-blue">
+    <!-- Single price grid -->
+    <div
+      id="single_price_grid"
+      class="container mx-auto shadow my-5"
+    >
+      <div class="row">
+        <!-- Card 1-->
+        <div
+          id="card_1"
+          class="col-12 bg-white p-5 rounded-top"
+        >
+          <h1 class="text-cyan fw-bold mb-3">Join our community</h1>
+          <h3 class="text-yellow-2 fw-bold mb-3">
+            30-day, hassle-free money back guarantee
+          </h3>
+          <p class="text-gray-blue w-75">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <!-- Card 2-->
+        <div
+          id="card_2"
+          class="col-12 col-lg-6 bg-cyan text-white p-5 rounded-start"
+        >
+          <h4 class="mb-3">Monthly Subscription</h4>
+          <h5 class="fw-light text-cyan-2 mb-1 d-flex align-items-center">
+            <span
+              id="card_2_price"
+              class="fw-bold me-3 text-white"
+              >&dollar;29</span
+            >per month
+          </h5>
+          <p class="mb-4">Full access for less than &dollar;1 a day</p>
+          <a
+            href="index.html"
+            class="btn btn-yellow text-white w-100 shadow-lg btn-lg"
+            >Sign Up</a
+          >
+        </div>
+        <!-- Card 3 -->
+        <div
+          id="card_3"
+          class="col-12 col-lg-6 text-white p-5 bg-cyan-3 rounded-end"
+        >
+          <h3 class="mb-4">Why Us</h3>
+          <ul class="list-unstyled text-light-gray">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
         </div>
       </div>
-    <script type="module" src="/main.js"></script>
+    </div>
+
+    <!-- Attribution -->
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a
+          class="text-purple"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://brendenevans.com/">Brenden Evans</a>.
+      </p>
+    </footer>
+
+    <!-- Main JS -->
+    <script
+      type="module"
+      src="/main.js"
+    ></script>
   </body>
 </html>

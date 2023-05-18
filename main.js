@@ -1,2 +1,5 @@
-// Import all of Bootstrap's JS
-// import * as bootstrap from 'bootstrap'
+// Custom SCSS
+import './scss/styles.scss';
+
+// Bootstrap JS
+import * as bootstrap from 'bootstrap';
